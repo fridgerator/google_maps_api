@@ -1,6 +1,8 @@
 # google_maps_api
 
-TODO: Write a description here
+WORK IN PROGRESS
+
+Crystal library for the Google Maps API.
 
 ## Installation
 
@@ -10,7 +12,7 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   google_maps_api:
-    github: [your-github-name]/google_maps_api
+    github: fridgerator/google_maps_api
 ```
 
 
@@ -21,8 +23,11 @@ dependencies:
 require "google_maps_api"
 ```
 
+#### Geocoding
 
-TODO: Write usage instructions here
+```cyrstal
+GoogleMapsApi::Geocoding.address_search("1111 North 20th")
+```
 
 ## Development
 
@@ -38,4 +43,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Nick Franken - creator, maintainer
+- [fridgerator](https://github.com/[your-github-name]) Nick Franken - creator, maintainer
