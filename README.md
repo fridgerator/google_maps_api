@@ -27,6 +27,8 @@ require "google_maps_api"
 
 ```cyrstal
 GoogleMapsApi::Geocoding.address_search("1111 North 20th")
+GoogleMapsApi::Geocoding.latlng_search(40.714224, -73.961452)
+GoogleMapsApi::Geocoding.place_search("ChIJd8BlQ2BZwokRAFUEcm_qrcA")
 ```
 
 ## Development
