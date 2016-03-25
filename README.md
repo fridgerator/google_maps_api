@@ -1,4 +1,4 @@
-# google_maps_api
+# GoogleMapsApi
 
 WORK IN PROGRESS
 
@@ -31,9 +31,12 @@ GoogleMapsApi::Geocoding.latlng_search(40.714224, -73.961452)
 GoogleMapsApi::Geocoding.place_search("ChIJd8BlQ2BZwokRAFUEcm_qrcA")
 ```
 
-## Development
+#### Places
+**places API requires an API key (set using ENV["GOOGLE_API_KEY"])**
 
-TODO: Write development instructions here
+```crystal
+GoogleMapsApi::Place.nearby(40.714224, -73.961452, {radius: 1000})
+```
 
 ## Contributing
 

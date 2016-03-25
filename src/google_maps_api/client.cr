@@ -1,7 +1,7 @@
 module GoogleMapsApi
 	class Client
 		BASE_URL = "https://maps.googleapis.com/maps/api/"
-		API_KEY = ""
+		API_KEY = ENV["GOOGLE_API_KEY"]? ? ENV["GOOGLE_API_KEY"] : ""
 
 		def self.get(endpoint : String, params : Hash)
 			append_key(params)
@@ -12,7 +12,9 @@ module GoogleMapsApi
 		private def self.handle_response(response)
 			case response.status_code
 			when 200..299
-				JSON.parse(response.body)["results"].to_json
+				parsed = JSON.parse(response.body)
+				raise GoogleMapsApi::Errors::ClientError.new(parsed["error_message"].to_s) if parsed["error_message"]?
+				parsed["results"].to_json
 			when 400..499
 				puts "error"
 				puts response.body
@@ -37,7 +39,7 @@ module GoogleMapsApi
 		private def self.to_query_string(params : Hash)
 			HTTP::Params.build do |form|
 				params.each do |key, value|
-					form.add(key.to_s, value)
+					form.add(key.to_s, value.to_s)
 				end
 			end
 		end
