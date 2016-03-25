@@ -48,4 +48,4 @@ GoogleMapsApi::Place.nearby(40.714224, -73.961452, {radius: 1000})
 
 ## Contributors
 
-- [fridgerator](https://github.com/[your-github-name]) Nick Franken - creator, maintainer
+- [fridgerator](https://github.com/fridgerator) Nick Franken - creator, maintainer
