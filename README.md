@@ -1,4 +1,6 @@
-# GoogleMapsApi
+
+
+# GoogleMapsApi [![Build Status](https://travis-ci.org/fridgerator/google_maps_api.svg?branch=master)](https://travis-ci.org/fridgerator/google_maps_api)
 
 WORK IN PROGRESS
 
