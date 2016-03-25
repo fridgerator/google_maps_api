@@ -1,0 +1,65 @@
+{
+   "html_attributions" : [],
+   "result" : {
+      "address_components" : [
+         {
+            "long_name" : "Williamsburg",
+            "short_name" : "Williamsburg",
+            "types" : [ "neighborhood", "political" ]
+         },
+         {
+            "long_name" : "Brooklyn",
+            "short_name" : "Brooklyn",
+            "types" : [ "sublocality_level_1", "sublocality", "political" ]
+         },
+         {
+            "long_name" : "New York",
+            "short_name" : "New York",
+            "types" : [ "locality", "political" ]
+         },
+         {
+            "long_name" : "Kings County",
+            "short_name" : "Kings County",
+            "types" : [ "administrative_area_level_2", "political" ]
+         },
+         {
+            "long_name" : "New York",
+            "short_name" : "NY",
+            "types" : [ "administrative_area_level_1", "political" ]
+         },
+         {
+            "long_name" : "United States",
+            "short_name" : "US",
+            "types" : [ "country", "political" ]
+         }
+      ],
+      "adr_address" : "Williamsburg, \u003cspan class=\"locality\"\u003eBrooklyn\u003c/span\u003e, \u003cspan class=\"region\"\u003eNY\u003c/span\u003e, \u003cspan class=\"country-name\"\u003eUSA\u003c/span\u003e",
+      "formatted_address" : "Williamsburg, Brooklyn, NY, USA",
+      "geometry" : {
+         "location" : {
+            "lat" : 40.7081156,
+            "lng" : -73.9570696
+         },
+         "viewport" : {
+            "northeast" : {
+               "lat" : 40.7251773,
+               "lng" : -73.936498
+            },
+            "southwest" : {
+               "lat" : 40.6979329,
+               "lng" : -73.96984499999999
+            }
+         }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+      "id" : "cbc1a5cf7da4345ed3d24f9dfac788e2a5c2684c",
+      "name" : "Williamsburg",
+      "place_id" : "ChIJQSrBBv1bwokRbNfFHCnyeYI",
+      "reference" : "CoQBfAAAAIy0lxhahQ2X6QriyyqpSSLivgMa80BJPJqfGltZ2ETA-LYEI5fCPpDFd1RQkHnJStU4Wu5jSbIBIHrHc7bWg3puCntQkdOq-buyEyqnlxz8ZuogIGqzDHQu6vYeFHK2tBlIFn9cpS_-Kk_g_OSu_DW9yk_y_HgOvrOZuLTJJFcdEhC0KqMysh1g2Vj-hvUfOlf-GhQoXMiQQBHYrKV6VPK6J87Ldxi5Hw",
+      "scope" : "GOOGLE",
+      "types" : [ "neighborhood", "political" ],
+      "url" : "https://maps.google.com/?q=Williamsburg,+Brooklyn,+NY,+USA&ftid=0x89c25bfd06c12a41:0x8279f2291cc5d76c",
+      "vicinity" : "Brooklyn"
+   },
+   "status" : "OK"
+}

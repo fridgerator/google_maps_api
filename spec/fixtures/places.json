@@ -1,0 +1,579 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CoQC8wAAAOpHE4xCCGvJ5dJJLFzekcHC06I1M2uCAaMlzKvoxVRZBJqkRSau5Olyw-ss1C4uwxTyAqOUW7HkXoXsb3php6w6mf0r3q2HSa-1mK7zQyPTHycveXFS6KFYZmUtXx5iN_gum9jGdksLL47vrB7l4PntVDDVxOFpv0gsURmfQHL5sa4mI0DjmlLv0H7NuE-viUrKHzOgZDIzQWkDGN1q9KjaMhsn73kGwtbzbohqweyJE53_e3xitEbGG7HD0gfYXDuSSWdDLtq3y_4BuPYAybYpN1p4jWrkkN1HFUt0Sx7CNWo4eyP3I2h01eIv17aW675UQ9qWAj9OPHTIym139d4SEGATdm0i1tyMRcYvqJIqSiUaFK8dYVCxW5MHmD1UNpn33N2_kTcl",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7081156,
+               "lng" : -73.9570696
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.7251773,
+                  "lng" : -73.936498
+               },
+               "southwest" : {
+                  "lat" : 40.6979329,
+                  "lng" : -73.96984499999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "cbc1a5cf7da4345ed3d24f9dfac788e2a5c2684c",
+         "name" : "Williamsburg",
+         "place_id" : "ChIJQSrBBv1bwokRbNfFHCnyeYI",
+         "reference" : "CoQBfAAAANQV4152sTIuv4FS2KvGbX8Mfv4nTcE-EDywL24HS4JK9ZoUL8I-WDAqw2sJloG4sS8ctCEfPUuNs2Htu9QFnec6nPxSBfevoTp7_CYsaYsHPThyK0BbihUkwiY0n8S32hiQg-ck0OnBbFTF2EdqHlsbLxLHujhQzq3Wjc-HFIsYEhChMfKPkPIRoAF3Vf0wg_-XGhQZndRolF_8Cv5GRsTgenxwSMwOFQ",
+         "scope" : "GOOGLE",
+         "types" : [ "neighborhood", "political" ],
+         "vicinity" : "Brooklyn"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7217239,
+               "lng" : -73.9571722
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "0436d57f0bd5b92ce07c2d1751bfcade9fb242d0",
+         "name" : "Brooklyn Brewery",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106474160341582117293/photos\"\u003eAlex R.\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAAjZtLCNF_ZeZcLdJNQzTa4GyuQJWD1BtSOghT5xnMOWMzpRRK3Z2wxgwiKky0wBO1zt3Bxv8VMWhgg4eYIzj0XJEP_c8oPuqljxVUZvJvBYJl2rCNNc3O6igE8peWsWwOEhACuH0nm5dNwPoJK4I9UcEDGhRhamGG4DjdfGqKuU8fmPDJ339NcA",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJUaAuMl1ZwokRt0-S_ynnRtc",
+         "price_level" : 1,
+         "rating" : 4.2,
+         "reference" : "CnRkAAAAC8rAnwcI8pwT8vJJGY3hV2IcQj7KFjqTWdgp-xwQPUs2uChWPX9z3BkOKKNn3TwpQIajybzrlZSL9tspyBRA7HIz-EW4KnPeKtqzyN52F_64eyKekkZrUM4Imy8VwG87pWdmW3glZRm4CtbWpNPDGRIQ8BsCz7K4k1DdoBHsLRQtqxoUJbJF9anWSFfcNfIGAT8d7NakJGw",
+         "scope" : "GOOGLE",
+         "types" : [ "food", "bar", "point_of_interest", "establishment" ],
+         "vicinity" : "79 North 11th Street, New York"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.71422099999999,
+               "lng" : -73.9558569
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "b8974c20c006b3826f8a64ca51d84cbf9ef84aab",
+         "name" : "Knitting Factory",
+         "photos" : [
+            {
+               "height" : 599,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111060989217568976013/photos\"\u003eKnitting Factory\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAA9ZzfGLaKinqa0rWqklhj9wCnDZ5GjmbSQ-3fviPNFyH57ZA8XhuPwPCDV1sL_jbaS6fKD79vQpyL1QKrr1JCit6CgmLN73AVAvN7u8SSu8xOP_l4EsXym6gY9Vi3J_JGEhDnneHSFfX9WlpALYfHlc3jGhR3FjLe5XMaUQ5a5m4SABg5xZKROw",
+               "width" : 900
+            }
+         ],
+         "place_id" : "ChIJy5PxAl9ZwokRYIcw77fFVwI",
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "CnRjAAAAvViBGy9p3gREzG4Utbwd8_J3TVQbaKLerIN2TYYAv4AIAsIkDlb3UsTKLvUPjmtruwx133aC6ufOsZhuvz_PWWUwbxb0LIudnAir_ExNeEWOQUthOKVmBAD-FjggEb2UZCrEEmVSd05j64rVKF3dKBIQHJxz2ozMD59B10KwRpGGYBoUt3oWcSXvtwtAP6-dT09yTp7KZJs",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "vicinity" : "361 Metropolitan Avenue, Brooklyn"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7191396,
+               "lng" : -73.9617418
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "db3cf43005f75e146d033df06e749cfea3a8426d",
+         "name" : "Music Hall of Williamsburg",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112755002083973423448/photos\"\u003eEric Lehmann\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAApBmjesmSZBVMBffM448RoAJGbzl2NKYEZ-S1V3AVsMvPL0OVhO4NhPz2pC7tfEBVE3zogecd_2C0JLgTigZrih9zpQZnUZgYrcQzUU3ShE6LMseGCXm7aTfPyoUV2mB9EhCDuWC3_XwLxnxqwyrNxr4ZGhQJUfLf1ZF4yZ4fMzywrO7XeLf6OA",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJwQCnGmdZwokRLMiSzjZtHwo",
+         "rating" : 4,
+         "reference" : "CnRtAAAAPY-eUUdgR_55aSkCQcdrCo1k9oa-6PcuCgzc7VpNCnYhti_g_Y51c_S_Wiq3vSVDMkRovDjCFVwcx0H52qkXYWgKifOBeTcD1wtgELsBW1n0z5hml-XPJUHS-SL0sP3B271kUse-Hc8vFoaUa5UKAxIQCr96ic43zJY7f1-3dd7REhoU1xjGaOZ8ymnUNL3GudwE27aAPbg",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "vicinity" : "66 North 6th Street, Brooklyn"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7219339,
+               "lng" : -73.95735189999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "71e9386fd67151f49d2a21d3ab98057b3610d865",
+         "name" : "Brooklyn Bowl",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116509372169341469134/photos\"\u003eJ Five\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBcwAAAEAEaUGxP5NHdAh_UFHr5uTEfGFs7Me51Yp6Xpa-fjwBiT6ydLHECruVCdyZ3pqZqORXLMZVClKs-fVOnQFKASBIhtaM01jblgdMWk888EqguKvQw9zaQmS5kOgdU4fAYNH0qQtmwFyPFMG8thUTBakmV1kyiHWlFu-YN8HklwhWEhDZxxJ4deNKnuBY2puzNC43GhR-JftJWXlhRaYGQ6xIj_dVjyrFQw",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJ0bhWy0JZwokRxxk-A6fJH1Q",
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "CmRgAAAAwASPSyb5GSc-gLnjiTixtgFrPizdHSDWKh9aq1cu5fJtVLxM2k4c79FFMUIuMF6rnM-avhLNsAKadiUP2ErzVPVOKj4t3CvWJy3yrkALn_kldDiIDTcHwlTGTZ1cd21HEhCcwVl1qx9rqAuBTSwqvT6uGhQK_WljLOj5QVflbKQtWGeKQ1uO2g",
+         "scope" : "GOOGLE",
+         "types" : [ "bowling_alley", "bar", "point_of_interest", "establishment" ],
+         "vicinity" : "61 Wythe Avenue, Brooklyn"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.71204049999999,
+               "lng" : -73.9510741
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "91185aa422b7e8506c740587dc2462cc50a88850",
+         "name" : "Barcade",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106654503918907830147/photos\"\u003eThe Corcoran Group\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAAGpXyiyrtbvKsmss1zHcy4BXdkPu79bEqeAMeowBVPsCnaRWp5xb9pLEN4vrG_g9p1vpR7OKBKJOT_8CgBzmNCquVf359jFxv_jQV0BWdnB0__b8JYYhqahVMj7t_S5LdEhDI2v66Nh88G-8oYXrZDyGyGhStBBky2Aovce65tUBiHF40bdL6YQ",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJCRZAjFhZwokRv6cEvR8K8Ik",
+         "price_level" : 2,
+         "rating" : 4.3,
+         "reference" : "CmRbAAAAL33GBXoBfn4VpzU0YYBUBIYYNdnF_0WcACR46tPMk6DFwkRNjsPvE3f6FfBMOzWxEQWtqKrfq-d4OfipALq548z6OlW43dlhI8UsoH1pU6HsH2EGO6upo5M3c6QOmUQWEhDDeWj5lDe3IYQDtN9yjBM3GhTpx933yUl-zxETW_5_Q6cVNnhXZg",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "vicinity" : "388 Union Avenue, Brooklyn"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7105964,
+               "lng" : -73.9635323
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "cb5562cca82f19315f89b0024eba7727fa01de5f",
+         "name" : "Williamsburg Art & Historical Center",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 539,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109757884125031451517/photos\"\u003eWilliamsburg Art &amp; Historical Center\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAAt0fPeybVLE4GJ-CQLImhyvxFt8xSOtEesHEzUwEMLNmVImmCRs7kTCKkqOALC8ozp6hXxIp_aOiFrufltOXdEPi1jfiXpmTd33HYfYq4DJcZjYpA8TaYC3MpIlPBReO-EhCV4b7Zn2yGAODzV51i3nFZGhRpDV29neOzZTRSVHpU-MovtThsSA",
+               "width" : 720
+            }
+         ],
+         "place_id" : "ChIJlXlB_d5bwokRr0cw-DKwuSc",
+         "reference" : "CoQBdwAAADZt1aoKUtfK_82ES9Oqz2m-Zf9Si5PH4hV7l_wcOoytIjUBHybuDb1ig8-EB8Whv0q2P0ltIN_5Gz757tpcnl9AXPPbjddnKyn4W-lo-SxsVONZ-kC0PRGZ1MzmMH146pu4kvPm72tw1Yz7yBDKIE444oV7tTQQrLoWvzIQdUTrEhA5834XZlbG26rkzhls1jqDGhRh-UVxJaoFGaa5Ps1nqkVpWUyWmQ",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "135 Broadway, Brooklyn"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.720998,
+               "lng" : -73.96135599999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+         "id" : "abd58a15c0b33884f7940cf95af5527e56e1125a",
+         "name" : "State of New York- East River State Park",
+         "photos" : [
+            {
+               "height" : 1975,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112388226254025155943/photos\"\u003eJozhe Fonseca\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAA4ackTIkfTRudVZ40LzezMt8gkdmItxZMaqL_ZVTAnDkC4bpGcfVP2xLzNgn8Q5cLg1YYZigaGtrRqIsYdPZcxU-AaLRLro2oAUfu-pIhhBrE7XQliFf1h52zSWzeowBHEhAinHiEhkGt8e1OBDuhipGSGhSE8JPPStledhgLRCQZimE8pf7cVQ",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJ_7OuzmdZwokRAybuocyN8Is",
+         "rating" : 4.4,
+         "reference" : "CoQBfAAAAKwgm6WJwK7X05SmSNldTwWNCcl7deQqs-MBBuYzBE7j55bVprLkjd-e9n0XPC-ZHYb_3QYIqO8Q214RWwMKTfXvUZg_O81CVCHKpwCG7XiV4gIk0GysM23JK_RFVw6Gqw-i2cRZwPpSGKGtt-1w85nWoc_kvyot-Da_3xAC2JAQEhB0JpLmcAdyem6G_HfmjYJVGhRIbmpnG9WkTrsBYY_k59mzAIv6ng",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "vicinity" : "90 Kent Avenue, Brooklyn"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7219936,
+               "lng" : -73.95792639999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "6b39f77b23a52719bf0966c15d49594e248ff084",
+         "name" : "Wythe Hotel",
+         "photos" : [
+            {
+               "height" : 2048,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104610056659872447319/photos\"\u003eTimothy Ho\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAAcSwM_y6yKMDUvguBy7D3Q_W6xY6R4Q_yNcCW3Bi5ndvkf7Kwvc7hTBC4bl2n6pk3VvbsNq4fpBYs1-_GJIZQONK1Vcl-CTE8sAMl0NdPpdke7B_5UoxykajkKqTIjaoqEhDjeYBWHyaNwVUDrhJZKyiIGhSQjvJfva_RIyTWShAfOjFBEcu_Mw",
+               "width" : 1536
+            }
+         ],
+         "place_id" : "ChIJucbIy0JZwokRvgoW5tnNHM0",
+         "rating" : 4.1,
+         "reference" : "CmRfAAAAKbDUdyI00hPhdbZ4KL_Ya6O7lyomhAu7eEe2O0Xc66HE3e3I7zGA9ivRgGiYqz1ezTVPxGO3SM_lf67qF7dHrQcV7JMQH2rbJb2_ancd_zaiRhIkkNwyHY24XqduZB8kEhDSxsRvEnvNRCtBV-RTR5jCGhTQQTmw3pdAJKRrRp1r3kGu0J5LJw",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "80 Wythe Avenue, Brooklyn"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7116213,
+               "lng" : -73.95211979999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "6d65702b2f2464bb0ca27d1a5bdb546fa908179f",
+         "name" : "City View williamsburg apartment rentals",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 787,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107081548337043807763/photos\"\u003eCity View williamsburg apartment rentals\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAA6bT24c5xXIIkkJZxmfIOKjGwtltx6BH3xtsIOE-76kHm7Jqxn5I-oZlL3EH7dd7czDI3VAJSB7fyZ7lIPLjgGeHNAhqoZUoeiV4g6VrS-8dKlXybz1M9-FNKGQybIYdZEhAFE81_uvf24t8vDX8hBflXGhSq5b1zP8oj5X_unxXg8HfmkJch-g",
+               "width" : 1024
+            }
+         ],
+         "place_id" : "ChIJx-k4oCxfwokRaJIm9WZG5cQ",
+         "rating" : 4,
+         "reference" : "CoQBfAAAAB8xiNjX1i4vUhU9xTWOnIAhPg_HtzvdIRoGv7poFti4h0Jzyd1MiegQKpMPsg68X3EME7l_RCggozRcSyySRj7WoWlbVvwgRQfsSugdtnpIy5Wa9Mv7u8o9RpYUu4EZf13THlqQ_In3RkU4K-qVwpiSwt37LqKv8a23rANTBIOcEhBCioweo3exgQpxSNQ-96UDGhQCEb5U6Ti3FPB0nHBhdRaVIlRwlA",
+         "scope" : "GOOGLE",
+         "types" : [ "real_estate_agency", "point_of_interest", "establishment" ],
+         "vicinity" : "156 Hope Street #1a, Brooklyn"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.70574879999999,
+               "lng" : -73.9556403
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "5aa02c85f5a63b7fb038a410fdbf88a52fda66cf",
+         "name" : "El Puente Academy for Peace and Justice",
+         "place_id" : "ChIJI1-FxOZbwokRJaOAYdAQJ0g",
+         "reference" : "CoQBegAAANnAlkQtZBKEUgmbV7sVrih9JinrJhV8sZdShK-ifVjmZ9bgUOWy-t2F1tMqeM8SMnQbEHWkAr2U7761nbkZHlbpFL_yU7eeXlC92797aAJCmJMp_9XEuhcPxheMkaL5TQF8iW51deRoc2wi5wRK0t254wb8uSnnVUoV1pg5N5l0EhDrR-UHj_R9dWyzdcVPt0PoGhTFzZo5tf4Z8bNBjg26hpr_nWSbMg",
+         "scope" : "GOOGLE",
+         "types" : [ "school", "point_of_interest", "establishment" ],
+         "vicinity" : "250 Hooper Street, Brooklyn"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.716512,
+               "lng" : -73.950732
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "059a3b9c3ded8987c9833b7901dfd97f6aa82d4a",
+         "name" : "Hotel Le Jolie",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1367,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116404348058295249407/photos\"\u003eHotel Le Jolie\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAAD2GMT71uY7QMeccBlepyCL4KnRydCM9H4Y7poPzOjjHAdCQ7_jI04ReD1QJWUvnTBHVHT_2LOuAgv2mnblDC0Mjfu3EYhC-_If1ONK6QKf71DBLHz72rcip0_XZfn3O7EhAxfzra6NvCjv_SMNJKIEmDGhTLEoMkvtpxL5hqcalYgGNAGW3TIQ",
+               "width" : 1362
+            }
+         ],
+         "place_id" : "ChIJD9IFbVpZwokR92FuLYKsEBw",
+         "rating" : 4.5,
+         "reference" : "CnRhAAAAD86LCe4zH3iLVDucXdePcoKxhaXDlpqOEJ1DLZB_bteqSFsQTz9sGB4CflNitq6VX4-udTtg1sf_bmysLddBLL0CpCl6Qug439_sfpuScqaPbj4H6_V8aZ67UrsTxCd4vEBsvgY7G0eCfrlks7efsBIQGOtfvjDnxHIUVu_j4x5QFRoU8eAdp8fafAXgg7SZiJm22ZBdStI",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "235 Meeker Avenue, Brooklyn"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7180549,
+               "lng" : -73.9600116
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "e543f2af403eb12af23a392c981cc9ca23455a6b",
+         "name" : "SEA Thai Restaurant",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 838,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104111246635874032234/photos\"\u003eZAGAT\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAABxJATBMQKwG1RwArCHg_aMCY1RHouWVk2Is2KTkeJVoQGX-IJme8siV8IV3Tybvx2MCZlwRetQd1VnlILRkUyHb8eccSOps-erc_UVwRWEiUhgraq_3EAmei4GBHzXwREhCGgG-OrvNpCoapfheaUFi1GhTUa4CZVwtTtOBzRlETzRHn9g5Fcw",
+               "width" : 1346
+            }
+         ],
+         "place_id" : "ChIJ7QU5XGdZwokRZTLGoFZPk8o",
+         "price_level" : 2,
+         "rating" : 3.8,
+         "reference" : "CnRnAAAARXYiIRInIpIkbM34trCbS8DYwQ-VuezMV0a-Of5WRpfAQAceDA6H-wMS7jiTnaIJOEl3saJ9lOvFKiJtw56xbUKEpAW1qUvQ3-uRyE-x1TS45b9wEuQ6f8x0WMiZYDVH0_G87xXiaD98nLSnzAr6MRIQYhYowl3SHLBEXLiHs5L0RBoUPJf2AuIWfQgZRmfZk_WpZ1cKMzg",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "114 North 6th Street, Brooklyn"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7156882,
+               "lng" : -73.9553363
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "3e4d150eeaedd363b95984247d00f724ad0d2030",
+         "name" : "Williamsburg High School for Architecture and Design",
+         "place_id" : "ChIJAy64wF5ZwokRWce9HP-qaj0",
+         "rating" : 3.9,
+         "reference" : "CpQBiAAAALp8x9kyLW-OvCVdvENocIIl2zjOgGS4eIbdAYzVdiESlAVvlA0iKSGAsgWa9I_9mOc1xCbqEDWp8n5OqwuJHg_xp4s1TLNSa1joBcBY2os6jLr4QvX57BcpSnMV6A-RGaNZ8XEZhrICK3f1DZT6_x7DmY1jw7BVTS-Dpe4cV15vklUoO_pq4iZ4QQQmctKkVRIQHR9E_PA5589ujT1GHtqX9BoUbuqEbEHN8XgE6zoVQRXnShxtjwM",
+         "scope" : "GOOGLE",
+         "types" : [ "school", "point_of_interest", "establishment" ],
+         "vicinity" : "257 North 6th Street, Brooklyn"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7208944,
+               "lng" : -73.9554315
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "14fbf10649e6a04c6ad82671d7746fab1510750e",
+         "name" : "McCarren Hotel & Pool",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1067,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100755100274258778891/photos\"\u003eMcCarren Hotel &amp; Pool\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAAyDt-r_xfg3daoEknJ0x_VCZONJTYdEK9IANpMijZ6VlBpRD95UoAOrn7mviaCRXNgz7z_MCghWnPG0Z_oDffHNU2iQfV_fzAv9BAIHvQD7GniZ0tnis3J5iwi0RljA2TEhAkWmpZa93ebvZTQankDfyYGhRS7Gpa8eUqk3GoqWO0IMhiXYbPWw",
+               "width" : 800
+            }
+         ],
+         "place_id" : "ChIJaw29yFxZwokRZNBXqJAWZtQ",
+         "rating" : 3.9,
+         "reference" : "CnRpAAAAfbv8Ivlu5Oi1f4Iqc1aJpL5MM5ks3vpltTV1mFhN614aZZKHNitrpnHktU_IYZBSXRiceSGaM-QWGDbvx29krbOR-lFjRKovwXUimrwvEAWj8jF9POEvk8K9BhxR3zXwkNpKHFmSsE3iDDcGUUQ0pxIQ1XQTpGrnXth9MUoS9jtAtBoUOU7wIq94DlufONWuAAoN0qaRHeY",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "160 North 12th Street, Brooklyn"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.711183,
+               "lng" : -73.9613664
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "711ba990379d3202e2d7cdb21289726f9fb6212d",
+         "name" : "Pies 'n' Thighs",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 432,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104111246635874032234/photos\"\u003eZAGAT\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAAEJ6iR8nSF2kONvS3MhQaiaqJifiQcbgRHmYeEZ4rjCyqn0nxBG9jERCm4ttmdFjr5VIGJ9lldU5VfHQ09dbTXCcGQztPcy2ceNFr5f-IIGRXJflzCs5P0BlTtgMe-9UfEhBa20pkeGRFEq1zjW5vSnBBGhRFibl43JWQq0hXv0owu9zrk0stTA",
+               "width" : 650
+            }
+         ],
+         "place_id" : "ChIJ2yfij9hbwokRokungtwEERU",
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "CnRiAAAAQ0ltBcQENpLVvYsmqqNpDncfAzC9_taf3RIMJAsWG_TXrvwImdJo7l7z4C4GYh_eyTBjRR0XiPnSnMzkC193taocHqtQ5XmjPq3zqU_Xljf6UnPcVtwgyzu0aexMHLiRW0tC0WvYNpP4ZxQca04AcBIQOy2W-oVnzgBohOu5Mad1fxoUl1-j5uttW3Ceslk_yNjH393xfMQ",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "166 South 4th Street, Brooklyn"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7138827,
+               "lng" : -73.956474
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "b3dbe118ab672f4f5dea2cef5861a05288bdc37a",
+         "name" : "Fette Sau",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 5312,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109371041063491896441/photos\"\u003eMarc Liberts\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAATScqhLrzuUAsYxZYwfKeg4XXgEq4IdElyZBavjUCG2TwaDjnKQ9uq3l7RbDDj0m3BJB5v-YNv7aKgujVv02DCsfzOh7bdLk-1Ls1mONvFMGvTJFWyxQnRhgMwUYwmEa6EhBe3rxalcufIkR7vjeHlrzUGhSt73AMT95rXTs0l8Z26gkSN1tI7A",
+               "width" : 2988
+            }
+         ],
+         "place_id" : "ChIJ5-1kAF9ZwokRxy_sb_0_IJ8",
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "CmRdAAAA4xE53omXUZsKWRxaAA-AXT8LDtLzJw-LJ3NXjoorQI5FSbuhzUlcsTFbrzVOXMLkjQcyVK9s0LpDvFWp9WG3oSorPtgczJcHqxjLuSbX5HOlXumXMlOFbKUsssQkn882EhAwvc1Qt-m9SIwqSFaMBFb8GhTJKbV7ZIyR926F5dScCdVKVLNnaQ",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "354 Metropolitan Avenue, Brooklyn"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7166608,
+               "lng" : -73.9614409
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "0bfabb8e65a133adfa012b9f4e552685d23d5a0f",
+         "name" : "Radegast Hall & Biergarten",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103062537359763272729/photos\"\u003eDirk H.\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAAs3c7Im9AoCFucYQJxMZyl72uAsgaegMUxiqs73eDOkO8S9eJEkDEe9bqpYJKMair8ISthQvCOdngJ9l5DwMFH6JhXGq4AryeWkvX_g6WdqfiAGkBgEp--eTC63Qx7P3REhA1LRnRzHN1426f-J1Ra8MSGhQETX_5GGefwOMfaPXZjucEeCQJtg",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJ1_tkw2BZwokRCU4l1ZUB_ew",
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "CnRuAAAAZl1H3MYSiTNqZ0ljI1hRbw5ddMeNSWgncGblfhL81iLk5oZiSXkd0lU_2jIEmU-nL57gfOjyCTu8kLtBmmKO6nNHRVhK51NU3XouEsUgqM9uocEVdsZRJVKciM7HzE9dFh6zwVa_yiA5i3uK2fUNYBIQuAhJhXWkcFH-oBwl8NQHlBoUMMob40qnyg08KI-ibS6EhJmDma8",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "113 North 3rd Street, Brooklyn"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7222436,
+               "lng" : -73.9615144
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+         "id" : "36d4da69ba6ef512c6588e3534a3b4b2ec9bc1ee",
+         "name" : "Bushwick Inlet Park",
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113442485808250584773/photos\"\u003eAbdulaziz Alashwal\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAAPw73AoeEO9CiHulL-F6O3Civh97XvVskqM4obtYm-UFE3ZfXYsOf856gA027xVzkHJwF4gw8pMTa8c5mY15OuK6i1XYBvH8OWLc5FG28NIuORPBHH0GX5cpQHp0XPr5HEhB5EIhjWlVw5iQPWI8EMf7kGhQ5dVAhni13mexLvCowDgYdofNn2A",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJ459kdmhZwokRncIsBgnVTQg",
+         "rating" : 4.5,
+         "reference" : "CnRmAAAAmfk93ii9-pGlnh_JdSPVr4UkYFlBvxa8YOzHw5R3EHPoVE6tMbNVbgoCX0I0iDYuF7c8D3Fs4SBh0SjIcPWyxIa0RI6out2RPI4neLKEt0Y4lIs0ywWhpxYLYyybeQW5QacGuosLIbihqvxITRW_3BIQnPIY7iQO6XkDIDIFcLcX5xoUQoto4as3WfPYYDbVYJfY1Yd88Tc",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "vicinity" : "Brooklyn"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7830603,
+               "lng" : -73.9712488
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.820045,
+                  "lng" : -73.90331300000001
+               },
+               "southwest" : {
+                  "lat" : 40.698078,
+                  "lng" : -74.03514899999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "476d37be9512ae1c37df40b54d55c5a911a413f1",
+         "name" : "Manhattan",
+         "place_id" : "ChIJYeZuBI9YwokRjMDs_IEyCwo",
+         "reference" : "CoQBeQAAAAGBSkfls5vRN23DKeMTFHwLbnqzvuAKCm7RYtr_eueES7IibV-up3UWsCk9allz7piAjcYKiL32JA4SkQVvtBkrtZ4WuBRcKaG1J3-6UH4ENuQ2SGO36WUgjEb00szhGIKHUsi32UtSQVj29GLeabasxGL5_7ajHx4QBgQcb84gEhDDlCoPbMGckGNTxyVsk39BGhTXLAQaQX67Oru1efjmwWoiys5HZQ",
+         "scope" : "GOOGLE",
+         "types" : [ "sublocality_level_1", "sublocality", "political" ],
+         "vicinity" : "Manhattan"
+      }
+   ],
+   "status" : "OK"
+}

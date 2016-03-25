@@ -1,8 +1,8 @@
 module GoogleMapsApi
-	class LatLng
-		JSON.mapping({
-			lat: Float32,
-			lng: Float32	
-		})
-	end
+  class LatLng
+    JSON.mapping({
+      lat: Float32,
+      lng: Float32  
+    })
+  end
 end

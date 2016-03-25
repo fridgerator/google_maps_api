@@ -1,6 +1,6 @@
 module GoogleMapsApi
-	struct Errors
-		class ClientError < Exception
-		end
-	end
+  struct Errors
+    class ClientError < Exception
+    end
+  end
 end
