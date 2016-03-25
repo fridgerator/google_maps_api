@@ -3,12 +3,17 @@ module GoogleMapsApi
     BASE_URL = "https://maps.googleapis.com/maps/api/"
     API_KEY = ENV["GOOGLE_API_KEY"]? ? ENV["GOOGLE_API_KEY"] : ""
 
+    # Sends query to google api endpoint.
+    # Appends the api key if it exists in ENV
+    # Handles the response from google.
     def self.get(endpoint : String, params : Hash)
       append_key(params)
       response = HTTP::Client.get "#{BASE_URL}#{endpoint}/json?#{to_query_string(params)}"
       handle_response(response)
     end
 
+    # Handle's the response from Google. Parsing the response body or raising errors
+    # as necessary
     private def self.handle_response(response)
       case response.status_code
       when 200..299
@@ -31,11 +36,13 @@ module GoogleMapsApi
       end
     end
 
+    # Appends `api_key` parameter if it exists in ENV["GOOGLE_API_KEY"]
     private def self.append_key(params : Hash)
       return if API_KEY.empty?
       params[:key] = API_KEY
     end
 
+    # Parses params hash and returns a query string
     private def self.to_query_string(params : Hash)
       HTTP::Params.build do |form|
         params.each do |key, value|
