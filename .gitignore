@@ -2,6 +2,7 @@
 /libs/
 /.crystal/
 /.shards/
+test.cr
 
 
 # Libraries don't need dependency lock

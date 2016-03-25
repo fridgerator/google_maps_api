@@ -38,7 +38,8 @@ GoogleMapsApi::Geocoding.place_search("ChIJd8BlQ2BZwokRAFUEcm_qrcA")
 
 ```crystal
 GoogleMapsApi::Place.nearby(40.714224, -73.961452, {radius: 1000})
-GoogleMapsApi::Place.details("ChIJQSrBBv1bwokRbNfFHCnyeYI")
+place = GoogleMapsApi::Place.details("ChIJQSrBBv1bwokRbNfFHCnyeYI")
+GoogleMapsApi::Place.nearby(place, {radius: 1000})
 ```
 
 ## Contributing
