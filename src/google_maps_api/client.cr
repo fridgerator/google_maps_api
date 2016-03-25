@@ -14,7 +14,7 @@ module GoogleMapsApi
 			when 200..299
 				parsed = JSON.parse(response.body)
 				raise GoogleMapsApi::Errors::ClientError.new(parsed["error_message"].to_s) if parsed["error_message"]?
-				parsed["results"].to_json
+				(parsed["results"]? ? parsed["results"] : parsed["result"]).to_json
 			when 400..499
 				puts "error"
 				puts response.body

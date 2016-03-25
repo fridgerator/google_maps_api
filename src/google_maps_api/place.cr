@@ -7,5 +7,10 @@ module GoogleMapsApi
 			response = GoogleMapsApi::Client.get("place/nearbysearch", {location: "#{lat},#{lng}"}.merge(opts))
 			Array(GoogleMapsApi::GooglePlace).from_json(response.to_s)
 		end
+
+		def self.details(place_id : String, opts = {} of Symbol => String | Int32)
+			response = GoogleMapsApi::Client.get("place/details", {placeid: place_id})
+			GoogleMapsApi::GooglePlace.from_json(response.to_s)
+		end
 	end
 end
