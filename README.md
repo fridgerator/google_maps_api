@@ -49,7 +49,7 @@ GoogleMapsApi::Directions.get(39.6684948, -79.6375071, 40.4313473, -80.0505404)
 ```
 
 Using 2 places:
-```cyrstal
+```crystal
 GoogleMapsApi::Directions.get(origin_place, dest_place)
 ```
 
