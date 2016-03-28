@@ -27,7 +27,7 @@ require "google_maps_api"
 
 #### Geocoding
 
-```cyrstal
+```crystal
 GoogleMapsApi::Geocoding.address_search("1111 North 20th")
 GoogleMapsApi::Geocoding.latlng_search(40.714224, -73.961452)
 GoogleMapsApi::Geocoding.place_search("ChIJd8BlQ2BZwokRAFUEcm_qrcA")
@@ -40,6 +40,17 @@ GoogleMapsApi::Geocoding.place_search("ChIJd8BlQ2BZwokRAFUEcm_qrcA")
 GoogleMapsApi::Place.nearby(40.714224, -73.961452, {radius: 1000})
 place = GoogleMapsApi::Place.details("ChIJQSrBBv1bwokRbNfFHCnyeYI")
 GoogleMapsApi::Place.nearby(place, {radius: 1000})
+```
+
+#### Directions
+
+```crystal
+GoogleMapsApi::Directions.get(39.6684948, -79.6375071, 40.4313473, -80.0505404)
+```
+
+Using 2 places:
+```cyrstal
+GoogleMapsApi::Directions.get(origin_place, dest_place)
 ```
 
 ## Contributing
