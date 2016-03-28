@@ -9,17 +9,17 @@ module GoogleMapsApi
     def self.get(endpoint : String, params : Hash)
       append_key(params)
       response = HTTP::Client.get "#{BASE_URL}#{endpoint}/json?#{to_query_string(params)}"
-      handle_response(response)
+      handle_response(response, endpoint)
     end
 
     # Handle's the response from Google. Parsing the response body or raising errors
     # as necessary
-    private def self.handle_response(response)
+    private def self.handle_response(response, endpoint)
       case response.status_code
       when 200..299
         parsed = JSON.parse(response.body)
         raise GoogleMapsApi::Errors::ClientError.new(parsed["error_message"].to_s) if parsed["error_message"]?
-        (parsed["results"]? ? parsed["results"] : parsed["result"]).to_json
+        parsed[results_key(endpoint)].to_json
       when 400..499
         puts "error"
         puts response.body
@@ -33,6 +33,22 @@ module GoogleMapsApi
         raise GoogleMapsApi::Errors::ServerError.new("Gateway Timeout")
       else
         raise Exception.new("Uncaught error")
+      end
+    end
+
+    # Returns the base key name used when parsing the response
+    private def self.results_key(endpoint : String)
+      case endpoint
+      when "directions"
+        "routes"
+      when "geocode"
+        "results"
+      when "place/nearbysearch"
+        "results"
+      when "place/details"
+        "result"
+      else
+        "routes"
       end
     end
 

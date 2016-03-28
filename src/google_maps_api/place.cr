@@ -27,7 +27,7 @@ module GoogleMapsApi
 
     # Query for the details of a Place by *place_id*
     def self.details(place_id : String, opts = {} of Symbol => String | Int32)
-      response = GoogleMapsApi::Client.get("place/details", {placeid: place_id})
+      response = GoogleMapsApi::Client.get("place/details", {placeid: place_id}.merge(opts))
       GoogleMapsApi::GooglePlace.from_json(response.to_s)
     end
   end
