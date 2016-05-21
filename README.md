@@ -37,9 +37,9 @@ GoogleMapsApi::Geocoding.place_search("ChIJd8BlQ2BZwokRAFUEcm_qrcA")
 **places API requires an API key (set using ENV["GOOGLE_API_KEY"])**
 
 ```crystal
-GoogleMapsApi::Place.nearby(40.714224, -73.961452, {radius: 1000})
+GoogleMapsApi::Place.nearby(40.714224, -73.961452, {:radius => 1000})
 place = GoogleMapsApi::Place.details("ChIJQSrBBv1bwokRbNfFHCnyeYI")
-GoogleMapsApi::Place.nearby(place, {radius: 1000})
+GoogleMapsApi::Place.nearby(place, {:radius => 1000})
 ```
 
 #### Directions

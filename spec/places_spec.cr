@@ -15,7 +15,7 @@ describe GoogleMapsApi::Place do
       end
 
       it "should return an array of StreetAddresses" do
-        expect(GoogleMapsApi::Place.nearby(40.714224, -73.961452, {radius: 1000}))
+        expect(GoogleMapsApi::Place.nearby(40.714224, -73.961452, {:radius => 1000}))
           .to be_a(Array(GoogleMapsApi::GooglePlace))
       end
     end
@@ -32,7 +32,7 @@ describe GoogleMapsApi::Place do
 
       it "should return an array of Street Addresses" do
         place = GoogleMapsApi::Place.details("ChIJQSrBBv1bwokRbNfFHCnyeYI")
-        expect(GoogleMapsApi::Place.nearby(place, {radius: 1000}))
+        expect(GoogleMapsApi::Place.nearby(place, {:radius => 1000}))
           .to be_a(Array(GoogleMapsApi::GooglePlace))
       end
     end
