@@ -18,7 +18,7 @@ describe GoogleMapsApi::Geocoding do
 
   describe "#latlng_search" do
     before do
-      WebMock.stub(:get, "maps.googleapis.com/maps/api/geocode/json?latlng=40.7142%2C-73.9615")
+      WebMock.stub(:get, "maps.googleapis.com/maps/api/geocode/json?latlng=40.714224%2C-73.961452")
         .to_return(response)
     end
 

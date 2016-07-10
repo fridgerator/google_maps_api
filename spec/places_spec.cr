@@ -6,7 +6,7 @@ describe GoogleMapsApi::Place do
       let(response) { Fixture.load("places.json") }
 
       before do
-        WebMock.stub(:get, "maps.googleapis.com/maps/api/place/nearbysearch/json?location=40.7142%2C-73.9615&radius=1000")
+        WebMock.stub(:get, "maps.googleapis.com/maps/api/place/nearbysearch/json?location=40.714224%2C-73.961452&radius=1000")
           .to_return(response)
       end
 

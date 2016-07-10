@@ -5,7 +5,7 @@ describe GoogleMapsApi::Directions do
   let(response) { Fixture.load("directions.json").to_s }
 
   before do
-    WebMock.stub(:get, "maps.googleapis.com/maps/api/directions/json?origin=39.6685%2C-79.6375&destination=40.4313%2C-80.0505")
+    WebMock.stub(:get, "maps.googleapis.com/maps/api/directions/json?origin=39.6684948%2C-79.6375071&destination=40.4313473%2C-80.0505404")
       .to_return(response)
   end
 
