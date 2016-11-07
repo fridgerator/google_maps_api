@@ -1,9 +1,8 @@
 module GoogleMapsApi
   module Place
-
     # Query for Places nearby the passed *latitude* and *longitude*.
     # This endpoint requires either radius or rankby which should be added to the opts
-    # 
+    #
     # ```crystal
     # GoogleMapsApi::Place.nearby(40.714224, -73.961452, {radius: 1000})
     # ```
@@ -20,8 +19,7 @@ module GoogleMapsApi
 
       response = GoogleMapsApi::Client.get(
         "place/nearbysearch",
-        {:location => "#{place.geometry.location.lat},#{place.geometry.location.lng}"
-      }.merge(opts))
+        {:location => "#{place.geometry.location.lat},#{place.geometry.location.lng}"}.merge(opts))
       Array(GoogleMapsApi::GooglePlace).from_json(response.to_s)
     end
 
