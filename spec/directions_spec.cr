@@ -1,12 +1,11 @@
 require "./spec_helper"
 
 describe GoogleMapsApi::Directions do
-
   let(response) { Fixture.load("directions.json").to_s }
 
   before do
-    WebMock.stub(:get, "maps.googleapis.com/maps/api/directions/json?origin=39.6684948%2C-79.6375071&destination=40.4313473%2C-80.0505404")
-      .to_return(response)
+    WebMock.stub(:get, "https://maps.googleapis.com/maps/api/directions/json?origin=39.6684948%2C-79.6375071&destination=40.4313473%2C-80.0505404")
+           .to_return(response)
   end
 
   describe "#get" do
@@ -19,10 +18,10 @@ describe GoogleMapsApi::Directions do
 
     context "with two places" do
       before do
-        WebMock.stub(:get, "maps.googleapis.com/maps/api/place/details/json?placeid=ChIJQSrBBv1bwokRbNfFHCnyeYI")
-          .to_return(Fixture.load("place.json"))
-        WebMock.stub(:get, "maps.googleapis.com/maps/api/directions/json?origin=40.7081%2C-73.9571&destination=40.7081%2C-73.9571")
-          .to_return(response)
+        WebMock.stub(:get, "https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJQSrBBv1bwokRbNfFHCnyeYI")
+               .to_return(Fixture.load("place.json"))
+        WebMock.stub(:get, "https://maps.googleapis.com/maps/api/directions/json?origin=40.7081%2C-73.9571&destination=40.7081%2C-73.9571")
+               .to_return(response)
       end
 
       it "should return an array of Routes" do

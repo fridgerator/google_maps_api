@@ -1,7 +1,7 @@
 module GoogleMapsApi
   class Client
     BASE_URL = "https://maps.googleapis.com/maps/api/"
-    API_KEY = ENV["GOOGLE_API_KEY"]? ? ENV["GOOGLE_API_KEY"] : ""
+    API_KEY  = ENV["GOOGLE_API_KEY"]? ? ENV["GOOGLE_API_KEY"] : ""
 
     # Sends query to google api endpoint.
     # Appends the api key if it exists in ENV
